@@ -46,7 +46,7 @@ int car_speed = map(40,0,100,0,255); //40%의속도로 설정
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
-#define WiFi_NAME "car000006"
+#define WiFi_NAME "car000004"
 #define PASSWORD "123456789"
 
 SSD1306Wire display(0x3c, 0, 2, GEOMETRY_128_32);
